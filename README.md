@@ -1,96 +1,61 @@
-INTERACTIVE FULL STACK PROJECT
+# NOSQL-SOCIAL-NETWORK
+
 User Story
 
-As a business owner, I want to track my how many lost sales we have per location due to not having the package available on a certain date; this way we can analyze in which are we need to add more collections or open another franchise.
+AS A social media startup
+I WANT an API for my social network that uses a NoSQL database
+SO THAT my website can handle large amounts of unstructured data
 
-Each location can add any notes or personal observations or vote in which collection should be added first.
+# Acceptance Criteria
 
-Acceptance Criteria
-Use Node.js and Express.js to create a RESTful API.
+GIVEN a social network API
+WHEN I enter the command to invoke the application
+THEN my server is started and the Mongoose models are synced to the MongoDB database
+WHEN I open API GET routes in Insomnia for users and thoughts
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
+THEN I am able to successfully create, update, and delete users and thoughts in my database
+WHEN I test API POST and DELETE routes in Insomnia
+THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
-Use Handlebars.js as the templating engine.
+## Walkthrough Videos
 
-Use MySQL and the Sequelize ORM for the database.
+- [User Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
+- [Thoughts Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
+- [Friend Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
+- [Reactions Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
 
-Have both GET and POST routes for retrieving and adding new data.
+## Table of Contents
 
-Be deployed using Heroku (with data).
+- [Installation](#Installation)
+- [Contributing](#Contributing)
+- [Application](#Starting_Application)
+- [Contact](#Contact)
 
-Use at least one new library, package, or technology that we haven’t discussed.
+## Installation
 
-Have a polished UI.
+Clone the repo files from the link below
+You must have mongoDB installed
+Run the following at the command line
 
-Be responsive.
+- npm init -y
+- npm install express
+- npm install mongoose
+- npm install moment
 
-Be interactive (i.e., accept and respond to user input).
+Use Insomnia Core to test API routes
 
-Have a folder structure that meets the MVC paradigm.
+## Starting Application
 
-Include authentication (express-session and cookies).
+Start the server
+$ npm start
 
-Protect API keys and sensitive information with environment variables.
+## Contributing
 
-Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class/id naming conventions, indentation, quality comments, etc.).
-
-Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
-
-Deployed App Link Heroku
-Deployed Link
-Screenshot
-Home screenshot-pic.
-
-Dashboard screenshot-pic.
-
-Login screenshot-pic.
-
-Sign Up screenshot-pic.
-
-Entry SQL DB screenshot-pic.
-
-User SQL DB screenshot-pic.
-
-User Comments SQL DB screenshot-pic.
-
-User Votes SQL DB screenshot-pic.
-
-Table of Contents
-Installation
-Technologies
-Contributing
-Application
-Contact
-Technologies Used
-npm init y
-npm install dotenv
-npm i bcrypt
-npm i connect-session-sequelize
-npm install express-handlebars
-npm install express sequelize mysql2
-npm i express-session
-npm i nodemon
-npm i lodash
-Installation
-Clone this repository to use this application on local machine.
-
-To install necessary dependencies, run the following command : npm init
-
-Starting Application
-Run the following command at the root of your project and answer the prompted questions:
-
-mysql -u root -p
-
-Enter PW when promted
-
-source db/schema.sql
-
-quit
-
-npm start
-
-Contributing
 This repository is a demo and is not accepting contributions.
 
-Contact
+## Contact
+
 Please contact me at ely.cano2033@gmail.com. View more of my work in GitHub at https://github.com/ElyCano.
 
 Created by @ElyCano - feel free to contact me!
