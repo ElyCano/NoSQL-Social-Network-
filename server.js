@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(require("./routes"));
 
 const CONNECTION_URL =
-  "mongodb+srv://E-cano2033:Rb4oM7JbaJq8e5Bq@cluster0.rh05c.mongodb.net/NoSQL_SocialNetwork?retryWrites=true&w=majority";
+  "mongodb+srv://localhost/NoSQL_SocialNetworky";
 
 mongoose
   .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
