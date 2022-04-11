@@ -20,10 +20,10 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Walkthrough Videos
 
-- [User Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
-- [Thoughts Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
-- [Friend Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
-- [Reactions Routes ](https://partydreams-lost-sales-entries.herokuapp.com/)
+- [User Routes ](https://watch.screencastify.com/v/MzNH8u7IfxxjiO7uT5QO)
+- [Thoughts Routes ](https://watch.screencastify.com/v/qsdPPoOYOEvntN9hiYUw)
+- [Friend Routes ](https://watch.screencastify.com/v/xC8Xyj8ziiIi7aBrbkJ2)
+- [Reactions Routes ](https://watch.screencastify.com/v/1T9DjhFOwnWT7MsErRzc)
 
 ## Table of Contents
 
